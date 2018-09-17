@@ -21,7 +21,7 @@ def count_elements(array)
   array.each { |x| elements[x] += 1}
   counter = []
   elements.each do |x, c|
-  x.each { |k, v| counter << {k => v , :c => c} }
+  x.each { |k, v| counter << {k => v , :count => c} }
 end
 counter
 
