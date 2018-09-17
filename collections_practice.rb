@@ -19,14 +19,15 @@ end
 def count_elements(array)
   elements = Hash.new(0)
   array.each { |x| elements[x] += 1}
+
 end
 
 def merge_data
 
 end
 
-def find_cool
-
+def find_cool(array)
+  array.select {|x| x[:temperature] == "cool"}
 end
 
 def orgganize_schools
