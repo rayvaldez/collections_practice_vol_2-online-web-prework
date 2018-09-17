@@ -1,6 +1,7 @@
 def begins_with_r(array)
-  array.start_with?("r")
-
+  array.each do |x|
+    x[0] == "r"
+  end
 
 end
 
