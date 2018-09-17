@@ -1,6 +1,10 @@
 def begins_with_r(array)
+  
   array.each do |x|
-    x[0].include?("r")
+    if x[0].include?("r")
+      return "true"
+    else
+      "false"
   end
 
 end
