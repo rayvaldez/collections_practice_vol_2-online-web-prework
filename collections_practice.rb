@@ -41,7 +41,7 @@ def find_cool(array)
   array.select {|x| x[:temperature] == "cool"}
 end
 
-def orgganized_schools(array)
+def orgganize_schools(array)
   sorted = {}
   array.each do |school, location_h|
     location_h.each do |s, l|
