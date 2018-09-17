@@ -17,9 +17,8 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.each do |x|
-    x.count
-  end
+  elements = Hash.new(0)
+  array.each { |x| elements[x] += 1}
 end
 
 def merge_data
