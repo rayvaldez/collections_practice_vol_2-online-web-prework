@@ -42,16 +42,16 @@ def find_cool(array)
 end
 
 def orgganize_schools(array)
-  sorted = {}
+  org = {}
   array.each do |school, location_h|
     location_h.each do |s, l|
-      if sorted[location_h] == nil
-        sorted[location_h] = [school]
+      if org[l] == nil
+        org[l] = [school]
       else
-        sorted[location_h] << school
+        org[l] << school
       end
     end
   end
-  sorted
+  org
 
 end
