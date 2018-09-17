@@ -31,11 +31,9 @@ end
 def merge_data(keys, data)
   keys.each do |name_h|
     name = name_h[:first_name]
-    data[0][name].each.do |property, value|
+    data[0][name].each do |property, value|
     name_h[property] = value
   end
-end
-end
 end
 
 def find_cool(array)
