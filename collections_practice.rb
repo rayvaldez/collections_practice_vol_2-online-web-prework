@@ -16,8 +16,8 @@ def remove_non_strings(array)
   array.delete_if { |word| word.class != String}
 end
 
-def count_elements
-
+def count_elements(array)
+  array.count
 end
 
 def merge_data
