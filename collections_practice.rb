@@ -8,7 +8,8 @@ def contain_a(array)
   array.select {|x| x.include?("a")}
 end
 
-def first_wa
+def first_wa(array)
+  array.find { |wa| array.start_with?("wa")}
 
 end
 
