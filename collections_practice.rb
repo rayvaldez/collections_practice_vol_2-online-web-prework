@@ -2,9 +2,9 @@ def begins_with_r(array)
 
   array.each do |x|
     if x[0].include?("r")
-      return "true"
+      return true
     else
-      "false"
+      false
     end
   end
 
