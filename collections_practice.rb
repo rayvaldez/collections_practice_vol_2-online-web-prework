@@ -5,8 +5,8 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-  array.each do |x|
-    x.include("a")
+  array.select |x|
+  x.include?("a")
   end
 
 end
