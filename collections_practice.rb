@@ -6,7 +6,7 @@ end
 
 def contain_a(array)
   array.each do |x|
-    x.include?("a")
+    x.include("a")
   end
 
 end
