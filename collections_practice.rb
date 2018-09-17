@@ -35,7 +35,8 @@ def merge_data(keys, data)
     name_h[property] = value
   end
 end
-
+end
+end
 
 def find_cool(array)
   array.select {|x| x[:temperature] == "cool"}
