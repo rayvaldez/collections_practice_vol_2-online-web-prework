@@ -1,6 +1,6 @@
 def begins_with_r(array)
   array.each do |x|
-    x[0] == "r"
+    x[0] != "r"
   end
 
 end
