@@ -10,11 +10,10 @@ end
 
 def first_wa(array)
   array.find { |letters| letters.to_s.start_with?("wa")}
-
 end
 
-def remove_non_strings
-
+def remove_non_strings(array)
+  array.delete_if { |word| word.class != String}
 end
 
 def count_elements
