@@ -1,7 +1,6 @@
 def begins_with_r(array, element)
   array.include? (element)
 end
-end
 
 def contain_a
 
