@@ -23,6 +23,7 @@ def count_elements(array)
   elements.each do |x, c|
   x.each { |k, v| counter << {k => v , :count => c} }
 end
+
 counter
 
 end
