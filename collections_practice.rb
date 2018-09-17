@@ -7,8 +7,6 @@ end
 def contain_a(array)
   array.select |x|
   x.include?("a")
-  end
-
 end
 
 def first_wa
