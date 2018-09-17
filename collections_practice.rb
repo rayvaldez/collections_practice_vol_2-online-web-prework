@@ -1,13 +1,6 @@
 def begins_with_r(array)
-
-  array.each do |x|
-    if x[0].include?("r")
-      return true
-    else
-      false
-    end
-  end
-
+  array.all? do |x|
+    x[0] == "r"
 end
 
 def contain_a
