@@ -19,9 +19,9 @@ end
 def count_elements(array)
   elements = Hash.new(0)
   array.each { |x| elements[x] += 1}
-  counter = Array.new
+  counter = []
   elements.each do |x, c|
-  x.each { |k, v| counter << {k => v , :c => count} }
+  x.each { |k, v| counter << {k => v , :c => c} }
 end
 counter
 
