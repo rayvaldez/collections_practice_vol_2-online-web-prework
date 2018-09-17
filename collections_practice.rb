@@ -9,7 +9,7 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  array.find { |letters| letters.start_with?("wa")}
+  array.find { |letters| letters.to_s.start_with?("wa")}
 
 end
 
